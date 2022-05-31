@@ -1,0 +1,117 @@
+/* MEU PRIMEIRO MEDIA QUERY  */
+@media (max-width: 600px) {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        /* overflow-x: hidden; */
+    }
+    .header {
+        height: 22vh;
+    }
+    .header_leftSection {
+        height: 20vh;
+        width: 80%;
+        /* background-color: white; */
+    }
+    .header_leftH1 {
+        border: none;
+        font-size: 10vw;
+        align-self: center;
+        padding-left: 18vw;
+        /* background-color: red; */
+    }
+    .header_leftSection2 {
+        height: 6vh;
+        width: 100%;
+        padding-left: 22vw;
+        /* background-color: aqua; */
+    }
+    .header_leftp1 {
+        font-size: 8vw;
+    }
+    .linha1,.linha2 {
+        border: 0;
+    }
+    .header_rightNav {
+        height: 10vh;
+        width: 20%;
+        /* background-color: green; */
+        margin-top: 4vh;
+        border: 1.5px solid #ddc000;
+        align-items: center;
+        flex-direction: column;
+    }
+    .header_rightNav:hover {
+        cursor: pointer;
+    }
+    .header_navP {
+        font-size: 0;
+    }
+    .mobile_icon {
+        border-top: solid 3px #ddc000;
+        width: 10vw;
+    }
+    .main {
+        /* background-color: green; */
+        height: 40vh;
+        background-size: cover;
+        background-position: 50%;
+    }
+    .main_p {
+        background-color: #000;
+        height: 5vh;
+        width: 100%;
+        letter-spacing: 4.5vw;
+        display: flex;
+        padding: 0;
+        margin: 0;
+    }
+    .footer {
+        align-items: unset;
+        
+    }
+    .footer_section {
+        height: 200vh;
+        width: 100%;
+        background-color: #000;
+    }
+    .footer_section1,.footer_section2,.footer_section3,.footer_section4 {
+        font-size: 5vw;
+        width: 100%;
+        padding-top: 1vh;
+    }
+    .footer_p {
+        font-size: 5vw;
+        width: 100%;
+        padding-top: 0;
+    }
+    .footer_img {
+        height: 100%;
+    }
+    .footer_link {
+        font-size: 4vw;
+    }
+    .footer_end {
+        font-size: 5vw;
+    }
+    .footer_icon1,.footer_icon2 {
+        height: 5vh;
+        width: 8vw;
+        margin: 0;
+    }
+    .footer_icon1 {
+        margin-left: 30vw;
+    }
+    .footer_icon2 {
+        margin-right: 40vw;
+    }
+    .fixed {
+        border-radius: 100%;
+        font-size: 0;
+        background-image: url(/assets/images/chat_icon.png);
+        background-repeat: no-repeat;
+        background-size: 40%;
+        background-position: 50%;
+    }
+}
