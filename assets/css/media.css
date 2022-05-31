@@ -109,7 +109,7 @@
     .fixed {
         border-radius: 100%;
         font-size: 0;
-        background-image: url(/assets/images/chat_icon.png);
+        background-image: url(./assets/images/chat_icon.png);
         background-repeat: no-repeat;
         background-size: 40%;
         background-position: 50%;
